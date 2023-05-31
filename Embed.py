@@ -3,7 +3,7 @@
 def Embedding():
 
  # step 1: convert secret text message to binary digits
- secret_msg = input("Type your secret message: ")
+ secret_msg = input("Enter your secret message: ")
  binary_msg = ''.join(format(x, '08b') for x in bytearray(secret_msg,'utf-8'))
  binary_list = [binary_msg[i: i+2] for i in range(0, len(binary_msg), 2)]
 
@@ -15,7 +15,7 @@ def Embedding():
  # 10 = "C" (cytosine)
  # 11 = "T" (thymine)
 
- Ref_dna = input("Type DNA sequence: ")
+ Ref_dna = input("Enter DNA sequence: ")
 
  #check binary secret message must be less than binary DNA sequence
 
