@@ -1,7 +1,7 @@
 # A function for extraction
 
 def Extraction():
- original_str = input("Type the DNA sequence you would like to convert: ")
+ original_str = input("Enter the DNA sequence you would like to convert: ")
  DNA_encoding = {
  "A": "00",
  "C": "01",
